@@ -1,0 +1,17 @@
+body {
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+.banniere {
+    width: 100%;
+    height: 10em;
+    background-image: url('../_images/galaxy_staeckel.png');
+    background-size: cover;
+    background-position: center;
+
+    font-size: 2em;
+    text-align: center;
+    line-height: 5em;
+
+}
