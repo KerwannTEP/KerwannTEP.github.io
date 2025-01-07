@@ -79,7 +79,7 @@ body {
 }
 
 footer {
-    position:absolute;
+    margin-top: 10em;
     bottom: 1em;
     left: 0;
     width: 100%;
