@@ -3,6 +3,8 @@ body {
     color: white; /* Le texte de la page sera blanc */
 }
 
+
+
 .banniere {
     width: 100%;
     height: 10em;
@@ -13,5 +15,115 @@ body {
     font-size: 2em;
     text-align: center;
     line-height: 5em;
+    text-shadow: 0.15em 0.15em 0.1em black;
 
+}
+
+
+.header_pages {
+
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0.15em 0.15em 0.1em black;
+
+}
+
+
+.box {
+    background-color: #fff;
+    border-radius: 1em;
+    border: 0.2em solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+.une {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.deux {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.trois {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.quatre {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.cinq {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.conteneur {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5em;
+    grid-gap: 10px;
+  }
+
+.back_to_home {
+    text-align: center;
+}
+
+footer {
+    position:absolute;
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+}
+
+.phd {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 16px;
+    font-weight: bold;
+
+}
+
+.phdlink {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 16px;
+
+}
+
+.ref {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.break {
+    margin-top: 2em;
+}
+
+ol {
+	counter-reset: o-counter 7;
+    list-style-type: none;
+}
+
+ol li:before {
+	content: '[' counter(o-counter) '] ';
+	counter-increment: o-counter -1;
 }
