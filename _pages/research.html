@@ -28,45 +28,11 @@
 
                 <div class="conteneur" style="align-items: center;">
 
-                    <div class="box une_a">        
-                        <p style="text-align: justify">
-                            <span style="text-decoration: underline; font-weight: bold;">Galactic bars in NewHorizon</span>
-                            <br>
-                            <br>
-                            <span>
-                                We modeled the NewHorizon galaxies as a thin self-gravitating gas disk, a central spherical bulge
-                                and a spherical dark matter halo. This system is described by the Euler-Poisson equations, which upon linearization yields an eigenmode problem. 
-                                I used the matrix method to translate this linear problem into an infinite matrix eigenvalues problem, which allowed me to recover the growth modes by 
-                                truncation. Using this efficient framework, we were able to extensively explore for the first time a large portion of the parameters describing thin galactic disks 
-                                (bulge fraction, dark halo, etc...) in order to explain the low bar formation rate observed in the NewHorizon simulation. 
-                                We showed that discs are too light and too bulgy to grow bars, which strongly suggests that the efficiency of star
-                                formation and the accretion history in cosmological simulations must be revisited to accommodate for smaller bulges and/or more massive stellar discs, 
-                                hence allowing galaxies to grow bars.
-                            </span>
-                            
-                        </p>
-                    </div>
                     
-                    <div class="box une_b">        
-                        <p>
-                            <img class="center" src="../_images/growth_rate.png" alt="NH growth rate"/>
-                            <br/>
-                            <span  style="text-align: center">
-                                Fastest growth mode drives bar formation. Here, darker colors translate to faster 
-                            growth mode. The left part of the plot corresponds to bulge-less galaxies and the 
-                            higher part of the plot corresponds to halo-less galaxies. The galaxy symbols 
-                            represent the typical galaxy of the NewHorizon simulation: the filled galaxy 
-                            symbol corresponds to a galaxy that has formed a bar in the simulation, while the 
-                            fainter symbols represent galaxy which have not. The white region corresponds to 
-                            parameters for which the growth time exceeds 10 dynamical times.
-                            </span>
-                            
-                        </p>
-                    </div>
 
 
 
-                    <div class="box deux_a">
+                    <div class="box une_b">
                         <p>
                             <img class="center2" src="../_images/GR_flattening_rotation.png" alt="Stackel growth rate"/>
                             <br/>
@@ -82,7 +48,7 @@
                         </p>
                     </div>
 
-                    <div class="box deux_b">
+                    <div class="box une_a">
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">Linear stability of rotating, flattened clusters</span>
                             <br>
@@ -112,7 +78,88 @@
                     </div>
 
 
+                    
+
+                    <div class="box deux_a">
+                        <p>
+                            <img class="center2" src="../_images/GC_aniso.png" alt="Stackel growth rate"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                The numerical simulations (N-body) and the theoretical predictions 
+                                (Chandrasekhar theory) of the orbital diffusion rate qualitatively agree with each 
+                                other, hence providing an explanation for the rate of core collapse
+                                of an anisotropic globular cluster up to some overall numerical 
+                                prefactor: we observe the orbital diffusion of a 
+                                tangentially anisotropic cluster, which shuffles circular orbits 
+                                towards more radial ones.
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="box deux_b">
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">Secular evolution of anisotropic globular clusters</span>
+                            <br>
+                            <br>
+                            <span>
+                                Globular clusters are also subject to orbital diffusion induced by shot noise 
+                                fluctuations driven by the finite number of stars within. This process is described 
+                                by the corresponding Fokker-Planck equation via Chandrasekhar's theory. 
+                                We extended this formalism from isotropic to anisotropic clusters, and provided 
+                                an numerical implementation of the diffusion coefficients in Julia. Then, we studied 
+                                the impact of velocity anisotropy on the rate of change of the stellar DF. We
+                                observed a striking match between our theoretical predictions and N-body simulations measurements,
+                                including the acceleration of core collapse with increasing velocity anisotropy, 
+                                as well as the isotropisation process of the cluster.
+                            </span>
+                            
+                        </p>
+         
+                    </div>
+
+
                     <div class="box trois_a">        
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">Impact of rotation on the secular diffusion of GCs</span>
+                            <br>
+                            <br>
+                            <span>
+                                We investigated the long-term relaxation of rotating, spherically symmetric 
+                                globular clusters through an extension of the orbit-averaged
+                                Chandrasekhar formalism, which we compared to predictions to a set of N-body 
+                                simulations, up to core collapse. We found the impact of rotation on in-plane relaxation
+                                to be weak, with a clear match between theoretical 
+                                predictions and N-body measurements. We found no strong gravo-gyro catastrophe 
+                                accelerating core collapse for stable rotating clusters. Both kinetic theory and
+                                simulations predict a reshuffling of orbital inclinations from overpopulated 
+                                regions to underpopulated ones. This trend accelerates
+                                as the amount of rotation is increased. Yet, for orbits closer to the rotational 
+                                plane, the non-resonant prediction does not reproduce
+                                numerical measurements. This mismatch may from these orbits’ 
+                                coherent interactions, which are not captured by the
+                                non-resonant formalism that only addresses local deflections.
+                            </span>
+                            
+                        </p>
+                    </div>
+                    
+                    <div class="box trois_b">        
+                        <p>
+                            <img class="center2" src="../_images/Rc_rotation_N1e4.png" alt="NH growth rate"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                Core radius as a function of time, as measured in N-body simulations. 
+                                Increasing the rotation strength α slightly
+                                reduces the time of core collapse. Nevertheless, the impact of rotation
+                                does not lead to any gravo-gyro catastrophe in this particular case, and is 
+                                negligeable compared to that of velocity anisotropy.
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="box quatre_b">        
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">IMBHs search in the Galactic center via SRR</span>
                             <br>
@@ -141,7 +188,7 @@
                         </p>
                     </div>
                     
-                    <div class="box trois_b">        
+                    <div class="box quatre_a">        
                         <p>
                             <img class="center2" src="../_images/LR_IMBHs.png" alt="NH growth rate"/>
                             <br/>
@@ -156,65 +203,20 @@
                         </p>
                     </div>
 
-                    <div class="box quatre_a">
-                        <p>
-                            <img class="center2" src="../_images/GC_aniso.png" alt="Stackel growth rate"/>
-                            <br/>
-                            <span  style="text-align: center">
-                                The numerical simulations (N-body) and the theoretical predictions 
-                                (Chandrasekhar theory) of the orbital diffusion rate qualitatively agree with each 
-                                other, hence providing an explanation for the rate of core collapse
-                                of an anisotropic globular cluster up to some overall numerical 
-                                prefactor: we observe the orbital diffusion of a 
-                                tangentially anisotropic cluster, which shuffles circular orbits 
-                                towards more radial ones.
-                            </span>
-                            
-                        </p>
-                    </div>
-
-                    <div class="box quatre_b">
-                        <p style="text-align: justify">
-                            <span style="text-decoration: underline; font-weight: bold;">Secular evolution of anisotropic globular clusters</span>
-                            <br>
-                            <br>
-                            <span>
-                                Globular clusters are also subject to orbital diffusion induced by shot noise 
-                                fluctuations driven by the finite number of stars within. This process is described 
-                                by the corresponding Fokker-Planck equation via Chandrasekhar's theory. 
-                                We extended this formalism from isotropic to anisotropic clusters, and provided 
-                                an numerical implementation of the diffusion coefficients in Julia. Then, we studied 
-                                the impact of velocity anisotropy on the rate of change of the stellar DF. We
-                                observed a striking match between our theoretical predictions and N-body simulations measurements,
-                                including the acceleration of core collapse with increasing velocity anisotropy, 
-                                as well as the isotropisation process of the cluster.
-                            </span>
-                            
-                        </p>
-         
-                    </div>
-
-
                     <div class="box cinq_a">        
                         <p style="text-align: justify">
-                            <span style="text-decoration: underline; font-weight: bold;">Impact of rotation on the secular diffusion of GCs</span>
+                            <span style="text-decoration: underline; font-weight: bold;">Galactic bars in NewHorizon</span>
                             <br>
                             <br>
                             <span>
-                                We investigated the long-term relaxation of rotating, spherically symmetric 
-                                globular clusters through an extension of the orbit-averaged
-                                Chandrasekhar formalism, which we compared to predictions to a set of N-body 
-                                simulations, up to core collapse. We found the impact of rotation on in-plane relaxation
-                                to be weak, with a clear match between theoretical 
-                                predictions and N-body measurements. We found no strong gravo-gyro catastrophe 
-                                accelerating core collapse for stable rotating clusters. Both kinetic theory and
-                                simulations predict a reshuffling of orbital inclinations from overpopulated 
-                                regions to underpopulated ones. This trend accelerates
-                                as the amount of rotation is increased. Yet, for orbits closer to the rotational 
-                                plane, the non-resonant prediction does not reproduce
-                                numerical measurements. This mismatch may from these orbits’ 
-                                coherent interactions, which are not captured by the
-                                non-resonant formalism that only addresses local deflections.
+                                We modeled the NewHorizon galaxies as a thin self-gravitating gas disk, a central spherical bulge
+                                and a spherical dark matter halo. This system is described by the Euler-Poisson equations, which upon linearization yields an eigenmode problem. 
+                                I used the matrix method to translate this linear problem into an infinite matrix eigenvalues problem, which allowed me to recover the growth modes by 
+                                truncation. Using this efficient framework, we were able to extensively explore for the first time a large portion of the parameters describing thin galactic disks 
+                                (bulge fraction, dark halo, etc...) in order to explain the low bar formation rate observed in the NewHorizon simulation. 
+                                We showed that discs are too light and too bulgy to grow bars, which strongly suggests that the efficiency of star
+                                formation and the accretion history in cosmological simulations must be revisited to accommodate for smaller bulges and/or more massive stellar discs, 
+                                hence allowing galaxies to grow bars.
                             </span>
                             
                         </p>
@@ -222,14 +224,16 @@
                     
                     <div class="box cinq_b">        
                         <p>
-                            <img class="center2" src="../_images/Rc_rotation_N1e4.png" alt="NH growth rate"/>
+                            <img class="center" src="../_images/growth_rate.png" alt="NH growth rate"/>
                             <br/>
                             <span  style="text-align: center">
-                                Core radius as a function of time, as measured in N-body simulations. 
-                                Increasing the rotation strength α slightly
-                                reduces the time of core collapse. Nevertheless, the impact of rotation
-                                does not lead to any gravo-gyro catastrophe in this particular case, and is 
-                                negligeable compared to that of velocity anisotropy.
+                                Fastest growth mode drives bar formation. Here, darker colors translate to faster 
+                            growth mode. The left part of the plot corresponds to bulge-less galaxies and the 
+                            higher part of the plot corresponds to halo-less galaxies. The galaxy symbols 
+                            represent the typical galaxy of the NewHorizon simulation: the filled galaxy 
+                            symbol corresponds to a galaxy that has formed a bar in the simulation, while the 
+                            fainter symbols represent galaxy which have not. The white region corresponds to 
+                            parameters for which the growth time exceeds 10 dynamical times.
                             </span>
                             
                         </p>

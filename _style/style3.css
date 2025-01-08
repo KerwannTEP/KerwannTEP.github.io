@@ -18,7 +18,7 @@ body {
     justify-content: center;
     color: white;
     
-    
+    /*--border: 3px solid red;*/
   }
   
 .une_a {
@@ -108,7 +108,7 @@ body {
     margin-top: 5em;
     display: grid;
     grid-template-columns: 22em 22em;
-    grid-template-rows: 30em 30em 30em 25em 25em;
+    grid-auto-rows: max-content;
     grid-gap: 2em 2em;
     justify-content: center;
     align-items: center;
@@ -130,12 +130,12 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 340px;
 }
 
 .center2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 380px;
+    width: 340px;
 }
