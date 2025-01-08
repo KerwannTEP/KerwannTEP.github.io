@@ -49,7 +49,7 @@
                     
                     <div class="box une_b">        
                         <p>
-                            <img class="center" src="../_images/growth_rate.png" alt="Growth rate"/>
+                            <img class="center" src="../_images/growth_rate.png" alt="NH growth rate"/>
                             <br/>
                             <span  style="text-align: center">
                                 Fastest growth mode drives bar formation. Here, darker colors translate to faster 
@@ -67,13 +67,172 @@
 
 
                     <div class="box deux_a">
-                        <p>TODO</p>
-                    </div>
-                    <div class="box deux_b">
                         <p>
-                            TODO
+                            <img class="center2" src="../_images/GR_flattening_rotation.png" alt="Stackel growth rate"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                Growth rate of the bi-symmetric instabilities as a function of flattening 
+                                and spin parameter. For highly flattened clusters, a transition (dashed black line) 
+                                between slowly rotating saddle modes and rapidly rotating spiral modes occurs. 
+                                For models rounders than c/a = 0.2, the cluster are either stables or subject to 
+                                the latter instability. Such clusters behave much differently than the Maclaurin 
+                                spheroids, which are the shapes that take rotating fluids with uniform density.
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="box deux_b">
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">Linear stability of rotating, flattened clusters</span>
+                            <br>
+                            <br>
+                            <span>
+                                We computed the 
+                                linear response of flattened Stäckel systems in rotation. Axial symmetry 
+                                allowed us to decompose the response matrix into 
+                                distinct azimuthal components. 
+                                Two families of fast and slow bi-symmetric modes were found: the 
+                                bending modes, 
+                                which are saddle-shaped, and the bar-growing modes, which are spiral 
+                                shaped. We showed the existence of a clear transition w.r.t. rotation 
+                                between these regimes for highly-flattened clusters. We denoted a 
+                                steep increase of the growth rate as one considers more flattened 
+                                clusters. Conversely, flattened systems tend to become more and more 
+                                stable as they become rounder for any rotation parameters. In 
+                                particular, clusters below their maximally available rotation become 
+                                completely stable at finite flattening, while the maximally rotating 
+                                clusters become stable in the isotropic spherical limit.
+                                Our predictions match N-body simulations at the ∼10% level in terms of growth 
+                                rates, pattern speeds, and shapes.
+                            </span>
+                            
                         </p>
          
+                    </div>
+
+
+                    <div class="box trois_a">        
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">IMBHs search in the Galactic center via SRR</span>
+                            <br>
+                            <br>
+                            <span>
+                                Because galactic centers are dominated by their central supermassive 
+                                black hole, the star’s orbits are quasi-Keplerian, as a result of 
+                                both relativistic effects and the cluster’s mass. Hence the nuclear 
+                                cluster is subject to orbital distortions, which can be described 
+                                through the inhomogeneous Balescu-Lenard equation.
+                                We applied this framework to the S-cluster of the Galactic 
+                                centre in order to probe the presence of intermediate mass black 
+                                holes (IMBHs). The Poisson noise induced by finite-N effects sources 
+                                a slow diffusion of the eccentricities of these orbits over time 
+                                , whose efficiency depends on the parameters of the 
+                                background unresolved cluster composed of old stars and IMBHs. 
+                                Relying on the current observations of the S-cluster’s and using 
+                                the orbital diffusion formalism, we evolved the system using a 
+                                Fokker-Planck equation, given a set of initial conditions and a 
+                                model of the invisible background cluster and devised a protocol 
+                                to determine the parameters of the IMBH family from the astrometric 
+                                data describing the S-cluster using a maximum likelihood analysis, 
+                                which I used to constrained the possible IMBH cluster’s parameters.
+                            </span>
+                            
+                        </p>
+                    </div>
+                    
+                    <div class="box trois_b">        
+                        <p>
+                            <img class="center2" src="../_images/LR_IMBHs.png" alt="NH growth rate"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                Confidence regions for a star+BH family using the 
+                                maximum likelihood method, applied to the observed stars of a the central 
+                                S-cluster, assuming large initial eccentricities (binary disruption formation scenario).
+                                Models above the cyan line correspond IMBHs candidates. Here, the most likely scenarii 
+                                involve IMBHs. 
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="box quatre_a">
+                        <p>
+                            <img class="center2" src="../_images/GC_aniso.png" alt="Stackel growth rate"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                The numerical simulations (N-body) and the theoretical predictions 
+                                (Chandrasekhar theory) of the orbital diffusion rate qualitatively agree with each 
+                                other, hence providing an explanation for the rate of core collapse
+                                of an anisotropic globular cluster up to some overall numerical 
+                                prefactor: we observe the orbital diffusion of a 
+                                tangentially anisotropic cluster, which shuffles circular orbits 
+                                towards more radial ones.
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="box quatre_b">
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">Secular evolution of anisotropic globular clusters</span>
+                            <br>
+                            <br>
+                            <span>
+                                Globular clusters are also subject to orbital diffusion induced by shot noise 
+                                fluctuations driven by the finite number of stars within. This process is described 
+                                by the corresponding Fokker-Planck equation via Chandrasekhar's theory. 
+                                We extended this formalism from isotropic to anisotropic clusters, and provided 
+                                an numerical implementation of the diffusion coefficients in Julia. Then, we studied 
+                                the impact of velocity anisotropy on the rate of change of the stellar DF. We
+                                observed a striking match between our theoretical predictions and N-body simulations measurements,
+                                including the acceleration of core collapse with increasing velocity anisotropy, 
+                                as well as the isotropisation process of the cluster.
+                            </span>
+                            
+                        </p>
+         
+                    </div>
+
+
+                    <div class="box cinq_a">        
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">Impact of rotation on the secular diffusion of GCs</span>
+                            <br>
+                            <br>
+                            <span>
+                                We investigated the long-term relaxation of rotating, spherically symmetric 
+                                globular clusters through an extension of the orbit-averaged
+                                Chandrasekhar formalism, which we compared to predictions to a set of N-body 
+                                simulations, up to core collapse. We found the impact of rotation on in-plane relaxation
+                                to be weak, with a clear match between theoretical 
+                                predictions and N-body measurements. We found no strong gravo-gyro catastrophe 
+                                accelerating core collapse for stable rotating clusters. Both kinetic theory and
+                                simulations predict a reshuffling of orbital inclinations from overpopulated 
+                                regions to underpopulated ones. This trend accelerates
+                                as the amount of rotation is increased. Yet, for orbits closer to the rotational 
+                                plane, the non-resonant prediction does not reproduce
+                                numerical measurements. This mismatch may from these orbits’ 
+                                coherent interactions, which are not captured by the
+                                non-resonant formalism that only addresses local deflections.
+                            </span>
+                            
+                        </p>
+                    </div>
+                    
+                    <div class="box cinq_b">        
+                        <p>
+                            <img class="center2" src="../_images/Rc_rotation_N1e4.png" alt="NH growth rate"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                Core radius as a function of time, as measured in N-body simulations. 
+                                Increasing the rotation strength α slightly
+                                reduces the time of core collapse. Nevertheless, the impact of rotation
+                                does not lead to any gravo-gyro catastrophe in this particular case, and is 
+                                negligeable compared to that of velocity anisotropy.
+                            </span>
+                            
+                        </p>
                     </div>
 
 

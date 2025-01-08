@@ -44,12 +44,60 @@ body {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    font-size: 1.0em;
+    font-size: 0.8em;
 }
 
 .deux_b {
     grid-row-start: 2;
     grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 1.0em;
+}
+
+.trois_a {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 1.0em;
+}
+
+.trois_b {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 0.8em;
+}
+
+.quatre_a {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 0.8em;
+}
+
+.quatre_b {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 1.0em;
+}
+
+.cinq_a {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 1.0em;
+}
+
+.cinq_b {
+    grid-row-start: 5;
+    grid-row-end: 6;
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 0.8em;
@@ -60,7 +108,7 @@ body {
     margin-top: 5em;
     display: grid;
     grid-template-columns: 22em 22em;
-    grid-template-rows: 25em 10em;
+    grid-template-rows: 30em 30em 30em 25em 25em;
     grid-gap: 2em 2em;
     justify-content: center;
     align-items: center;
@@ -83,4 +131,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-  }
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+}
