@@ -1,0 +1,86 @@
+body {
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+.header_pages {
+
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0.15em 0.15em 0.1em black;
+
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    
+  }
+  
+.une_a {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 1.0em;
+
+}
+
+.une_b {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 0.75em;
+
+}
+
+.deux_a {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 1.0em;
+}
+
+.deux_b {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 0.8em;
+}
+
+
+.conteneur {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 22em 22em;
+    grid-template-rows: 25em 10em;
+    grid-gap: 2em 2em;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+.back_to_home {
+    text-align: center;
+}
+
+footer {
+    margin-top: 10em;
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
