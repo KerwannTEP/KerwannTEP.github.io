@@ -119,7 +119,7 @@ footer {
 }
 
 ol {
-	counter-reset: o-counter 7;
+	counter-reset: o-counter 8;
     list-style-type: none;
 }
 
