@@ -29,10 +29,44 @@
                 <div class="conteneur" style="align-items: center;">
 
                     
-
-
-
                     <div class="box une_b">
+                        <p>
+                            <img class="center2" src="../_images/stream_ecc_5Gyr.png" alt="Stream"/>
+                            <br/>
+                            <span  style="text-align: center">
+                                Stellar streams obtained using NBODY6++GPU (Wang & al. 2015) using the MWPotential2014 potential (Bovy 2015) after 5 Gyr. 
+                                Tidal forces strip stars from the progenitor via its L1 and L2 Lagrange points, leading to the creation of 
+                                stellar stars. The KRIOS code is able to reproduce the characteristics of
+                                these streams to a satisfactory degree. We had to slightly modify NBODY6++GPU to resolve some issues with the current version of
+                                the code, which fails when using MWPotential2014. We refer to the fork of the code available at KerwannTEP/Nbody6ppGPU.
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="box une_a">
+                        <p style="text-align: justify">
+                            <span style="text-decoration: underline; font-weight: bold;">Stellar streams in Galactic potentials</span>
+                            <br>
+                            <br>
+                            <span>
+                                We use the KRIOS code to study the benefits of breaking spherical symmetry and how it relates to modeling the long-term evolution of a globular cluster (GC) in a
+                                host galaxy potential. Each GC is evolved forward via a combination of the self-consistent field method and
+                                Hénon-style two-body relaxation. Using analytic potential models for the Milky Way, we compare the stellar
+                                streams modeled with KRIOS to NBODY6++GPU and particle-spray codes in order to determine its ability to
+                                reproduce observables. KRIOS force calculations scale linearly with N, thus producing stream models orders-
+                                of-magnitude faster than NBODY6++GPU for hundreds of thousands of particles. KRIOS outperforms a leading particle-spray code (Chen & al. 2025) in
+                                replicating sky-plane information as well, rendering it a suitable intermediary between these two popular approaches. 
+                                We find particle-spray streams have more varied density, velocity dispersion, and disagreement angle
+                                profiles than KRIOS, but their performance can be improved with better progenitor models and reducing Poisson noise.
+                            </span>
+                            
+                        </p>
+         
+                    </div>
+
+
+                    <div class="box deux_a">
                         <p>
                             <img class="center2" src="../_images/GR_flattening_rotation.png" alt="Stackel growth rate"/>
                             <br/>
@@ -48,7 +82,7 @@
                         </p>
                     </div>
 
-                    <div class="box une_a">
+                    <div class="box deux_b">
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">Linear stability of rotating, flattened clusters</span>
                             <br>
@@ -80,7 +114,7 @@
 
                     
 
-                    <div class="box deux_a">
+                    <div class="box trois_b">
                         <p>
                             <img class="center2" src="../_images/GC_aniso.png" alt="Stackel growth rate"/>
                             <br/>
@@ -97,7 +131,7 @@
                         </p>
                     </div>
 
-                    <div class="box deux_b">
+                    <div class="box trois_a">
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">Secular evolution of anisotropic globular clusters</span>
                             <br>
@@ -119,7 +153,7 @@
                     </div>
 
 
-                    <div class="box trois_a">        
+                    <div class="box quatre_b">        
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">Impact of rotation on the secular diffusion of GCs</span>
                             <br>
@@ -144,7 +178,7 @@
                         </p>
                     </div>
                     
-                    <div class="box trois_b">        
+                    <div class="box quatre_a">        
                         <p>
                             <img class="center2" src="../_images/Rc_rotation_N1e4.png" alt="NH growth rate"/>
                             <br/>
@@ -159,7 +193,7 @@
                         </p>
                     </div>
 
-                    <div class="box quatre_b">        
+                    <div class="box cinq_a">        
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">IMBHs search in the Galactic center via SRR</span>
                             <br>
@@ -188,7 +222,7 @@
                         </p>
                     </div>
                     
-                    <div class="box quatre_a">        
+                    <div class="box cinq_b">        
                         <p>
                             <img class="center2" src="../_images/LR_IMBHs.png" alt="NH growth rate"/>
                             <br/>
@@ -203,7 +237,7 @@
                         </p>
                     </div>
 
-                    <div class="box cinq_a">        
+                    <div class="box six_b">        
                         <p style="text-align: justify">
                             <span style="text-decoration: underline; font-weight: bold;">Galactic bars in NewHorizon</span>
                             <br>
@@ -222,7 +256,7 @@
                         </p>
                     </div>
                     
-                    <div class="box cinq_b">        
+                    <div class="box six_a">        
                         <p>
                             <img class="center" src="../_images/growth_rate.png" alt="NH growth rate"/>
                             <br/>
